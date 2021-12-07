@@ -22,14 +22,15 @@ export const getCountryCodes = (countries) => {
 
 export const filterOceania = (countries) => {
   return countries.filter((country) => country.continent === 'Oceania');
- 
 };
 
 // INPUT: the array of countries from data.js
 // OUTPUT: only countries that include the letters 'au'
 // REQS: use .filter
 
-export const filterAu = (countries) => {};
+export const filterAu = (countries) => {
+  return countries.filter((country) => country.name.includes('au'));
+};
 
 // INPUT: the array of brands from data.js
 // OUTPUT: an array of all the sneakers brands
