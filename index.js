@@ -21,9 +21,8 @@ export const getCountryCodes = (countries) => {
 // REQS: use .filter
 
 export const filterOceania = (countries) => {
- // const filterOceania = 
   return countries.filter((country) => country.continent === 'Oceania');
-  //return filterOceania;
+ 
 };
 
 // INPUT: the array of countries from data.js
